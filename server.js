@@ -28,7 +28,7 @@ dbConnection();
 
 module.exports = { io };
 
-require("./sockets");
+require("./config/sockets");
 
 app.get("/", (req, res) => {
   res.send(`App is running on ${port}`);
